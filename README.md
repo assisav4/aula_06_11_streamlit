@@ -18,3 +18,7 @@ Este projeto é um observatório de notícias que utiliza a API do Google News p
 - **spaCy**: Biblioteca de processamento de linguagem natural para Python.
 - **pytz**: Biblioteca que permite a manipulação de fusos horários.
 - **GNews**: Biblioteca para acessar a API do Google News.
+
+Antes de executar o programa e ter instalado as bibliotecas com o arquivo requirements.txt, instale o modelo `pt_core_news_sm` com o seguinte comando:
+
+ - python -m spacy download pt_core_news_sm
